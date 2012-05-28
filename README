@@ -1,0 +1,39 @@
+=====================================================================
+= ICMI Service Status Monitor                                       =
+=====================================================================
+* Author : Hendrik Busch
+* Current version : 0.1-SNAPSHOT
+* License : Creative Commons Attribution-NonCommercial-
+            ShareAlike 3.0 Germany License.
+
+Abstract
+--------
+The Service status monitor is a small applicance that signals the 
+health of monitored IT systems (or whatever else you might want to
+monitor) with indicators mimicking traffic lights.
+
+Basic operation
+---------------
+Several services are monitored by a custom application on a computer 
+somewhere. This software communicates with an Arduino board via 
+serial link and tells the Arduino what to display on the health 
+monitor. The health monitor itself consists of one or more segments, 
+each capable of mimicking a traffic light, i.e. displaying green, 
+yellow or red. For those with color blindness, the colors use can 
+simply be changed.
+
+The health display itself will consist of several “traffic light” 
+segments. For simply monitoring the availability of a service, 
+a single segment is enough. In my case, in addition to knowing 
+that the database is up and running, I also would like some 
+indicator that reflects the current load on the system. For this 
+purpose, I should be able to assign more than one segment to 
+this services, resulting in a finer resolution of the service 
+status.
+
+More information
+----------------
+As this project is currently work in progress, you can read about any
+new updates at my website:
+
+http://www.icanmakeit.de/category/make/projects/icmi-service-status-monitor/
