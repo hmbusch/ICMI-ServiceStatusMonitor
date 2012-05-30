@@ -31,6 +31,17 @@ purpose, I should be able to assign more than one segment to
 this services, resulting in a finer resolution of the service 
 status.
 
+Project organisation
+--------------------
+Currently, the project consists of two branches, master and dev. The
+master branch contains all the software, code, circuits, images, etc.
+that I have already release und featured in one of my project blog
+posts. The dev branch ist my development branch, that contains my
+work-in-progress files. These files may be incomplete, may not work
+or may even be plain wrong. So to stay on the safe side of things,
+master is the branch most users want.
+
+
 More information
 ----------------
 As this project is currently work in progress, you can read about any
